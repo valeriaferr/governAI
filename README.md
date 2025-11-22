@@ -19,7 +19,7 @@ O primeiro passo foi a criação de uma conta trial no Azure. A conta foi criada
 
 Em seguida foi criado um grupo de recursos (rg-governai-project) na região Sweden Central.
 
-![Imagem 1](Anexos\Imagens\img_tela_inicial_agente.png)
+![Imagem 1](Anexos/Imagens/img_tela_inicial_agente.png)
 
 
 
@@ -27,8 +27,8 @@ Em seguida foi criado um grupo de recursos (rg-governai-project) na região Swed
 
   Foi utilizado o modelo da OpenAI gpt-4o-mini, pois teve seu treinamento relativamente recente, tem uma boa performance e possui um custo reduzido, comparado as suas outras versões.
 
-![Imagem 2.1](./Anexos\Imagens\img_inicio_agente.png)
-![Imagem 2.2](./Anexos\Imagens\img_modelo_agente.png)
+![Imagem 2.1](Anexos/Imagens/img_inicio_agente.png)
+![Imagem 2.2](Anexos/Imagens/img_modelo_agente.png)
 
 ### **3. Configuração do agente**
 Esta etapa contpreendeu a inclusão da descrição do agente, das instruções do modelo e das configurações de temperatura e do Top p (parâmetro que controla a aleatoriedade e criatividade do modelo). Esta etapa se desdobrou em vários exercícios de tentativa e erro que forneceu um grau aceitável de criatividade. A temperatura foi ajusta para 0.25 e o Top p para 0.6.
