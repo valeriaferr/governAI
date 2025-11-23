@@ -20,6 +20,7 @@ O primeiro passo foi a criação de uma conta trial no Azure. A conta foi criada
 
 Em seguida foi criado um grupo de recursos (rg-governai-project) na região Sweden Central.
 
+![Inicio](Anexos/img_inicio_agente.png)
 
 ### **2. Implantação do modelo**
 
@@ -94,5 +95,6 @@ Ao final, o agente foi capaz de resumir o total de indicadores e quantos e quais
 - [Aula Fudamentos de IA  ](https://github.com/Igomes01/azure_frontier_girls_fundamentos_ia?tab=readme-ov-file/)
 - [Azure  ](https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account?icid=azurefreeaccount/)
 - [Documentação do Foundry  ](https://learn.microsoft.com/pt-br/azure/ai-foundry/?view=foundry-classic/) 
+
 
 
