@@ -105,16 +105,16 @@ O agente identificou não somente o conceito correto, mas também pontuou quando
 ![Imagem 5.3](./Anexos\Imagens\img_churn_recomenda.png)
 ![Imagem 5.4](./Anexos\Imagens\img_sla_conceito.png)
 ![Imagem 5.5](./Anexos\Imagens\img_sla_conceitodivergencia.png)
-![Imagem 5.6](./Anexos\Imagens\img_sla_conceitodivergencia2.png)
-![Imagem 5.7](./Anexos\Imagens\img_sla_conceitodivergencia3.png)
+![Imagem 5.6](./Anexos/Imagens\img_sla_conceitodivergencia2.png)
+![Imagem 5.7](.\Anexos\Imagens\img_sla_conceitodivergencia3.png)
 
 Ao final, o agente foi capaz de resumir o total de indicadores e quantos e quais possuiam divergências, sendomuito útil para auxiliar na governança dos indicadores.
 
-![Imagem 5.8](./Anexos\Imagens\img_resumo_indicador.png)
-![Imagem 5.9](./Anexos\Imagens\img_resumo_indicador2.png)
+![Imagem 5.8](./Anexos/img_resumo_indicador.png)
+![Imagem 5.9](.\Anexos\img_resumo_indicador2.png)
 
 
-
+![Imagem 6](Anexos/img_fluxo.png)
 ---
 
 ## **🚀 Próximos Passos Sugeridos**
@@ -127,3 +127,4 @@ Ao final, o agente foi capaz de resumir o total de indicadores e quantos e quais
 - [Aula Fudamentos de IA  ](https://github.com/Igomes01/azure_frontier_girls_fundamentos_ia?tab=readme-ov-file/)
 - [Azure  ](https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account?icid=azurefreeaccount/)
 - [Documentação do Foundry  ](https://learn.microsoft.com/pt-br/azure/ai-foundry/?view=foundry-classic/) 
+
