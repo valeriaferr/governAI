@@ -108,6 +108,9 @@ O agente foi testado, então, no playground para apoiar na recuperação de conc
 ![Imagem 5.7](./Anexos\Imagens\img_sla_conceitodivergencia3.png)
 ---
 
+![Fluxo final](img_fluxo.png)
+
+
 ## **🚀 Próximos Passos Sugeridos**
 - [ ] Passo 1 sugerido  
 - [ ] Passo 2 sugerido  
