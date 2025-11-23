@@ -27,7 +27,7 @@ Em seguida foi criado um grupo de recursos (rg-governai-project) na região Swed
 
   Foi utilizado o modelo da OpenAI gpt-4o-mini, pois teve seu treinamento relativamente recente, tem uma boa performance e possui um custo reduzido, comparado as suas outras versões.
 
-![texto alternativo]([Anexos/Imagens/img_modelo_agente.png](https://github.com/valeriaferr/governAI/blob/3640445f02ce7ac73e9005b9a29f252432100f99/Anexos/Imagens/img_inicio_agente.png))
+![texto alternativo](Anexos/Imagens/img_inicio_agente.png)
 
 ![Imagem 1](Anexos/Imagens/img_inicio_agente.png)
 
