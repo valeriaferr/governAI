@@ -27,9 +27,11 @@ Em seguida foi criado um grupo de recursos (rg-governai-project) na região Swed
 
   Foi utilizado o modelo da OpenAI gpt-4o-mini, pois teve seu treinamento relativamente recente, tem uma boa performance e possui um custo reduzido, comparado as suas outras versões.
 
-![Imagem 2](Anexos/Imagens/img_inicio_agente.png)
+![texto alternativo]([Anexos/Imagens/img_modelo_agente.png](https://github.com/valeriaferr/governAI/blob/3640445f02ce7ac73e9005b9a29f252432100f99/Anexos/Imagens/img_inicio_agente.png))
 
-![Imagem 3](Anexos/Imagens/img_modelo_agente.png)
+![Imagem 1](Anexos/Imagens/img_inicio_agente.png)
+
+![Imagem 1](Anexos/Imagens/img_modelo_agente.png)
 
 ### **3. Configuração do agente**
 Esta etapa contpreendeu a inclusão da descrição do agente, das instruções do modelo e das configurações de temperatura e do Top p (parâmetro que controla a aleatoriedade e criatividade do modelo). Esta etapa se desdobrou em vários exercícios de tentativa e erro que forneceu um grau aceitável de criatividade. A temperatura foi ajusta para 0.25 e o Top p para 0.6.
