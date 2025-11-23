@@ -20,10 +20,6 @@ O primeiro passo foi a criação de uma conta trial no Azure. A conta foi criada
 
 Em seguida foi criado um grupo de recursos (rg-governai-project) na região Sweden Central.
 
-![Inicio](Anexos/img_inicio_agente.png)
-
-![Diagrama de Arquitetura do Agente GovernAI](Anexos/img_fluxo.png)
-
 ### **2. Implantação do modelo**
 
   Foi utilizado o modelo da OpenAI gpt-4o-mini, pois teve seu treinamento relativamente recente, tem uma boa performance e possui um custo reduzido, comparado as suas outras versões.
@@ -86,7 +82,6 @@ O agente identificou não somente o conceito correto, mas também pontuou quando
 Ao final, o agente foi capaz de resumir o total de indicadores e quantos e quais possuiam divergências, sendomuito útil para auxiliar na governança dos indicadores.
 
 ---
-![Fluxo](Anexos/img_fluxo.png)
 
 ## **🚀 Próximos Passos Sugeridos**
 - Criar uma ação que envie o relatório de divergências para os times responsáveis e governança. Não foi possível criar essa ação a partir da conta pessoal.
@@ -98,6 +93,7 @@ Ao final, o agente foi capaz de resumir o total de indicadores e quantos e quais
 - [Aula Fudamentos de IA  ](https://github.com/Igomes01/azure_frontier_girls_fundamentos_ia?tab=readme-ov-file/)
 - [Azure  ](https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account?icid=azurefreeaccount/)
 - [Documentação do Foundry  ](https://learn.microsoft.com/pt-br/azure/ai-foundry/?view=foundry-classic/) 
+
 
 
 
