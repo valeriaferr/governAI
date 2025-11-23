@@ -19,7 +19,7 @@ O primeiro passo foi a criação de uma conta trial no Azure. A conta foi criada
 
 Em seguida foi criado um grupo de recursos (rg-governai-project) na região Sweden Central.
 
-![Imagem 1](Anexos/Imagens/img_tela_inicial_agente.png)
+![Imagem 1](Anexos/Imagens/img_inicio_agente.png)
 
 
 
