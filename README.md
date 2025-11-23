@@ -22,6 +22,8 @@ Em seguida foi criado um grupo de recursos (rg-governai-project) na região Swed
 
 ![Inicio](Anexos/img_inicio_agente.png)
 
+![Diagrama de Arquitetura do Agente GovernAI](Anexos/img_fluxo.png)
+
 ### **2. Implantação do modelo**
 
   Foi utilizado o modelo da OpenAI gpt-4o-mini, pois teve seu treinamento relativamente recente, tem uma boa performance e possui um custo reduzido, comparado as suas outras versões.
@@ -95,6 +97,7 @@ Ao final, o agente foi capaz de resumir o total de indicadores e quantos e quais
 - [Aula Fudamentos de IA  ](https://github.com/Igomes01/azure_frontier_girls_fundamentos_ia?tab=readme-ov-file/)
 - [Azure  ](https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account?icid=azurefreeaccount/)
 - [Documentação do Foundry  ](https://learn.microsoft.com/pt-br/azure/ai-foundry/?view=foundry-classic/) 
+
 
 
 
