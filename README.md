@@ -20,24 +20,16 @@ O primeiro passo foi a criação de uma conta trial no Azure. A conta foi criada
 
 Em seguida foi criado um grupo de recursos (rg-governai-project) na região Sweden Central.
 
-![Imagem 1](./Anexos\Imagens\img_tela_inicial_agente.png)
-
-
 
 ### **2. Implantação do modelo**
 
   Foi utilizado o modelo da OpenAI gpt-4o-mini, pois teve seu treinamento relativamente recente, tem uma boa performance e possui um custo reduzido, comparado as suas outras versões.
 
-![Imagem 2.1](./Anexos\Imagens\img_inicio_agente.png)
-![Imagem 2.2](./Anexos\Imagens\img_modelo_agente.png)
 
 ### **3. Configuração do agente**
 Esta etapa contpreendeu a inclusão da descrição do agente, das instruções do modelo e das configurações de temperatura e do Top p (parâmetro que controla a aleatoriedade e criatividade do modelo). Esta etapa se desdobrou em vários exercícios de tentativa e erro que forneceu um grau aceitável de criatividade. A temperatura foi ajusta para 0.25 e o Top p para 0.6.
 
 As istruções também foram euxastivas até que fosse possível chegar em um formato desejável. Percebe-se que ao se estruturar e pontuar a forma como as repostas devem ser entregues chega-se em um resultado mais preciso.
-
-![Imagem 3.1](./Anexos\Imagens\img_implantacao_Agente.png)
-![Imagem 3.2](./Anexos\Imagens\img_descricao_agente.png)
 
 Seguem os textos incluídos na descrição e instruções.
 
@@ -81,40 +73,15 @@ Esse agente é parte do processo de Governança de Dados — respostas devem ref
 ### **4. Dados E Base de conhecimento**
 Nesta prova de conceito, os dados são fictícios e foram gerados pelo Copilot. O arquivo de dados está no formato Json, seguindo a estrutua abaixo para cada indicador.
 
-![Imagem 4.1](./Anexos\Imagens\img_arquivo_indicadores_json.png)
-
 Em seguida, foi adicionada a base de conhecimento carregando o arquivo local JSON com od indicsdores por área.
-
-![Imagem 4.2](./Anexos\Imagens\img_base_conhecimento_agente.png)
-
-![Imagem 4.3](./Anexos\Imagens\img_base_conhecimento_agente2.png)
-
-![Imagem 4.4](./Anexos\Imagens\img_base_conhecimento_agente3.png)
-
-![Imagem 4.5](./Anexos\Imagens\img_base_conhecimento_agente4.png)
-
-![Imagem 4.6](./Anexos\Imagens\img_base_conhecimento_agente5.png)
 
 ### **5. Agente em teste**
 O agente foi testado, então, no playground para apoiar na recuperação de conceito, indicadores duplicados e identificação de divergências.
 
 O agente identificou não somente o conceito correto, mas também pontuou quando havia mais de um conceito e a divergência existente.
 
-![Imagem 5.1](./Anexos\Imagens\img_churn_conceito.png)
-![Imagem 5.2](./Anexos\Imagens\img_churn_divergencia.png)
-![Imagem 5.3](./Anexos\Imagens\img_churn_recomenda.png)
-![Imagem 5.4](./Anexos\Imagens\img_sla_conceito.png)
-![Imagem 5.5](./Anexos\Imagens\img_sla_conceitodivergencia.png)
-![Imagem 5.6](./Anexos/Imagens\img_sla_conceitodivergencia2.png)
-![Imagem 5.7](.\Anexos\Imagens\img_sla_conceitodivergencia3.png)
-
 Ao final, o agente foi capaz de resumir o total de indicadores e quantos e quais possuiam divergências, sendomuito útil para auxiliar na governança dos indicadores.
 
-![Imagem 5.8](./Anexos/img_resumo_indicador.png)
-![Imagem 5.9](.\Anexos\img_resumo_indicador2.png)
-
-
-![Imagem 6](Anexos/img_fluxo.png)
 ---
 
 ## **🚀 Próximos Passos Sugeridos**
@@ -127,4 +94,5 @@ Ao final, o agente foi capaz de resumir o total de indicadores e quantos e quais
 - [Aula Fudamentos de IA  ](https://github.com/Igomes01/azure_frontier_girls_fundamentos_ia?tab=readme-ov-file/)
 - [Azure  ](https://azure.microsoft.com/pt-br/pricing/purchase-options/azure-account?icid=azurefreeaccount/)
 - [Documentação do Foundry  ](https://learn.microsoft.com/pt-br/azure/ai-foundry/?view=foundry-classic/) 
+
 
